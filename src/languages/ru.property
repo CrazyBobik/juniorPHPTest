@@ -1,0 +1,37 @@
+en: English
+ukr: Українська
+ru: Русский
+enter_Title: Добро пожаловать
+registration_Title: Регистрация
+Registration: Зарегистрироватся
+EnterLogin: Введите логин
+EnterPass: Введите пароль
+EnterName: Введите имя
+EnterSecondName: Введите фамилию
+EnterEmail: Введите e-mail
+EnterAbout: Введите дополнительную информацию
+BtnEnter: Войти
+BtnBack: Назад
+BtnMain: На главную
+UserNotFound: Такого пользователя не найдено
+IncorrectPassword: Не правильный пароль
+Login: Логин
+Name: Имя
+SecondName: Фамилия
+Email: E-mail
+Sex: Пол
+SexMale: Мужской
+SexFemale: Женский
+About: О себе
+Password: Пароль
+Photo: Фото
+Clean: Очистить
+SuccessRegistration: Вы успешно зарегистрировались
+ThisUserExist: Такой пользователь уже зарегистрирован
+LoginError: Логин должен состоять из 3-20 любых символов
+PasswordError: Пароль может состоять из 3-20 символов латинского алфавита, цифр и символов ('_', '$', '#')
+NameError: Имя должно состоять из 3-50 букв
+SecondNameError: Фамилия должна состоять из 3-50 букв
+EmailError: Некорректно задан e-mail
+AboutError: Длина не должна превышать 255 символов
+ImgError: Ошибка! Фото должно быть размером 1 мб и формата jpg(jpeg)

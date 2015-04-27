@@ -1,0 +1,37 @@
+en: English
+ukr: Українська
+ru: Русский
+enter_Title: Welcome
+registration_Title: Registration
+Registration: Registration
+EnterLogin: Enter login
+EnterPass: Enter password
+EnterName: Enter name
+EnterSecondName: Enter second name
+EnterEmail: Enter e-mail
+EnterAbout: Enter additional information
+BtnEnter: Enter
+BtnBack: Back
+BtnMain: Main
+UserNotFound: This user not found
+IncorrectPassword: Incorrect password
+Login: Login
+Name: Name
+SecondName: Second name
+Email: E-mail
+Sex: Sex
+SexMale: Male
+SexFemale: Female
+About: About
+Password: Password
+Photo: Photo
+Clean: Clean
+SuccessRegistration: Registration success
+ThisUserExist: This user already exist
+LoginError: Login must consist of 3-20 characters of any kind
+PasswordError: Password must consist of 3-20 latin characters, numbers and symbols ('_', '$', '#')
+NameError: Name must consist of 3-50 letters
+SecondNameError: Second name must consist of 3-50 letters
+EmailError: Incorrect e-mail
+AboutError: Length should not exceed 255 characters
+ImgError: Error! Photos must be the size of 1 MB and format jpg (jpeg)
