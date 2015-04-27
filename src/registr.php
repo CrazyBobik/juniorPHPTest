@@ -65,6 +65,15 @@
                 echo "</b></div>";
                 echo "</div>";
             } else {
+                $array = array (
+                    "login" => $login,
+                    "name" => $name,
+                    "secondName" => $second_name,
+                    "email" => $email,
+                    "about" => $about
+                );
+                $_SESSION['fields'] = $array;
+
                 echo "<div class=\"container content\">";
                 echo "<div class='alert alert-warning'><b>";
 

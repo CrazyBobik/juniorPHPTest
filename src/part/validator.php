@@ -44,14 +44,7 @@
                         $_SESSION['error'] = $lang_array['ImgError'];
                     }
 
-                $type = $_FILES['file']['type'];
-                $size = $_FILES['file']['size'];
-
-                if (($type != "image/jpg") && ($type != "image/jpeg")){
-                    $isNorm = false;
-                    $_SESSION['error'] = $lang_array['ImgError'];
-                }
-                if ($size > 1024 * 1024){
+                if ($_FILES['file']['size'] > 1024 * 1024){
                     $isNorm = false;
                     $_SESSION['error'] = $lang_array['ImgError'];
                 }
@@ -59,6 +52,8 @@
                 if ($isNorm){
                     $image = "images/".$login."/".$_FILES['file']['name'];
                 }
+            } else {
+                $_SESSION['error'] = $lang_array['ImgError'];
             }
         }
     }
